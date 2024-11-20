@@ -39,14 +39,11 @@ if(isset($_POST['proses'])){
 
     $bersih = $gaji_karya + $bonus - $kotor;
 
-    echo "    <section>
-        <div class='container'>
-            <div class='row'>
-                <div class='col'>
-                <div class='card-header'>
-                $nama2
-                </div>
+    echo "
         <table style='color:blue;'>
+        <tr>
+            <td align='center' colspan='2'>$nama2</td>
+        </tr>
         <tr>
             <td align='center' colspan='2'><h3>STRUK GAJI</h3></td>
         </tr>
@@ -108,11 +105,6 @@ if(isset($_POST['proses'])){
         </tr>
         
         </table>
-                </div>
-            </div>
-        </div>
-    </section>";
-
 }
 ?>
 </fieldset>
