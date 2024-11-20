@@ -22,10 +22,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                    <div class="card" style="width: 30rem;">
+                    <div class="card" style="width: 28rem;">
                 <div class="card-header">
                 Data Pengajihan
                 </div>
+                <div class="row">
+                <div class="col">
                 <table>
                 <tr>
                 <td colspan="2">No <br> <input type="number" name="no" value="" placeholder="No" style="width:100%;" required=""></td>
@@ -80,6 +82,8 @@
                 <td colspan="2" align="center"><br><input type="submit" name="proses" value="simpan"></td>
                 </tr>
                 </table>
+                </div>
+                </div>
                 </div>
                     </div>
                     </div>
